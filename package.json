@@ -2,7 +2,7 @@
   "name": "electron-test",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ogassarakys/electron-test/issues"
   },
-  "homepage": "https://github.com/ogassarakys/electron-test#readme"
+  "homepage": "https://github.com/ogassarakys/electron-test#readme",
+  "dependencies": {
+    "glob": "^7.1.1"
+  }
 }
