@@ -2,7 +2,7 @@
 
 var electron = require('electron');
 var remote = electron.remote;
-var fileUtil = remote.require('../lib/fileUtil');
+var fileUtil = remote.require('./lib/fileUtil');
 var baseDir = process.cwd();
 
 var ngModule = angular.module('readUs', []);
